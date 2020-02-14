@@ -1,0 +1,13 @@
+<h1>Form component</h1>
+<p>Name</p>
+<!-- property binding [ value ] -->
+<input type="text" name="" [value]="defaultName">
+<p>Email</p>
+<input type="email" placeholder="Email">
+<br><br>
+<button (click)="onSendForm()">let's go!</button>
+<br><br>
+<button (click)="onDefaultForm()">Default form</button>
+
+<!-- interpolacion: convierte variables o return a html -->
+<p>{{ status }}</p>
